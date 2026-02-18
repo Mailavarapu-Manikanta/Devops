@@ -2,7 +2,7 @@
 
 NUMBER=$(id -u)
 
-if [ $NUMBER -ne 0]; then
+if [ $NUMBER -ne 0 ]; then
 echo "ERROR: please use root user to run the script"
 exit 1
 fi

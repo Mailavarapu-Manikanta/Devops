@@ -1,5 +1,5 @@
 #! /bin/bash
-START-TIME=$(date +%s)
+START_TIME=$(date +%s)
 sleep 10
-END-TIME=$(date +%s)
-echo "script executed in:$(($END-TIME-$START-TIME))"
+END_TIME=$(date +%s)
+echo "script executed in:$(($END_TIME-$START_TIME))"

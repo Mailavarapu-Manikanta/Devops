@@ -1,0 +1,7 @@
+#! /bash/bin
+
+PERSON1=MANIKANTA
+PERSON2=SURESH
+
+echo "$PERSON1 :HI"
+echo "$PERSON2 :HELLO"

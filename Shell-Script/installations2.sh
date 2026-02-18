@@ -9,7 +9,7 @@ fi
 
 dnf install mysql -y
 
-if [ $? -eq 0 ]
+if [ $? -eq 0 ]; then
 echo "mysql installation success"
 else
 echo "mysql installation failed"
@@ -18,7 +18,7 @@ fi
  
 dnf install nginx -y
 
-if [ $? -eq 0 ]
+if [ $? -eq 0 ]; then
 echo "mysql installation success"
 else
 echo "mysql installation failed"
